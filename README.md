@@ -46,10 +46,25 @@ More info about this dependency injection library can be found on [official Dagg
 ####REST Trio: Retrofit, OkHttp, Gson
 Retrofit is a type-safe REST client for Android built by Square. The library provides a powerful framework for authenticating and interacting with APIs and sending network requests with OkHttp.
 
-####Reactive Programming
+####Make your brain shift with Reactive Programming
 
-####Retrolambda
+####Write shorter code with Retrolambda
 [Retrolambda](https://github.com/evant/gradle-retrolambda)** is a Java library for using Lambda expression syntax in Android and other pre-JDK8 platforms. It helps keep your code tight and readable especially if you use a functional style with for example with RxJava.
+
+So things like this:
+```java
+button.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        log("Clicked");
+    }
+});
+```
+
+Become much simpler:
+```java
+button.setOnClickListener(v -> log("Clicked"));
+```
 
 
 ####Image loading libraries

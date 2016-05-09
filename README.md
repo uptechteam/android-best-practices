@@ -94,5 +94,7 @@ Beware of the dex method limitation, and avoid using many libraries.** Android a
 #####Resource naming conventions
 #####Organize packages according to features, not layers
 
+#####Project Lombok
+
 ####Thanks To
 Jake Wharton, Dima Kovalenko, Andriy Bas

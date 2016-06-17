@@ -96,5 +96,13 @@ Beware of the dex method limitation, and avoid using many libraries.** Android a
 
 #####Project Lombok
 
+
+#####Kotlin
+
+#####Keyhash
+When you have Facebok integration in the app, it's cumbersome to collect all the developer keyhashes, change them one the build machine is used, etc.
+One nice solution is to keep debug.keystore inside the repository and using it to sign debug builds. This way, the application that was build on any machine would have same keyhash and thus, debug facebook login would work. 
+
+
 ####Thanks To
 Jake Wharton, Dima Kovalenko, Andriy Bas
